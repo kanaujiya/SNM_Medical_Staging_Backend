@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "vercel-build": "npm run generateDoc",
     "start": "npm run generateDoc && node src/server.js",
     "dev": "nodemon src/server.js",
     "generateDoc": "node src/Swagger.js"
